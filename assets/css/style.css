@@ -247,7 +247,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  /*background: url("../img/03.jpg") top right no-repeat;*/
   background: url("../img/02.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
@@ -539,7 +538,7 @@ section {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.portfolio #portfolio-filters {
   padding: 0;
   margin: 0 auto 25px auto;
   list-style: none;
@@ -549,7 +548,7 @@ section {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px;
@@ -562,11 +561,11 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-filters li:hover, .portfolio #portfolio-filters li.filter-active {
   color: #0563bb;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
 
@@ -580,7 +579,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.9);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1059,7 +1058,9 @@ section {
 .portfolio-details .portfolio-title {
   font-size: 26px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
+  float:left;
+
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
@@ -1080,9 +1081,9 @@ section {
   background-color: #0563bb !important;
 }
 
-.portfolio-details .portfolio-info {
-  padding-top: 45px;
-}
+/*.portfolio-details .portfolio-info {*/
+/*  padding-top: 45px;*/
+/*}*/
 
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
@@ -1171,8 +1172,29 @@ section {
   font-size: 13px;
 }
 
+
 .sub-skills h4 {
   color: #0563bb;
   text-align: center;
   padding: 0 0 1em 0;
+}
+
+@media (min-width: 992px) {
+  .venoframe, .vbox-inline {
+    width: 80%;
+    height: 70vh;
+    border-radius: 1.5em;
+  }
+}
+
+@media (min-width: 1200px) {
+  div#project-summary {
+    width: 80%;
+  }
+}
+
+#view-on-github {
+  float: right;
+  font-weight: 400;
+  font-size: 1rem;
 }
