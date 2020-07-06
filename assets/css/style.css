@@ -1,10 +1,3 @@
-/**
-* Template Name: MyResume - v2.1.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1183,13 +1176,14 @@ section {
   .venoframe, .vbox-inline {
     width: 80%;
     height: 70vh;
-    border-radius: 1.5em;
+    border-radius: 0.8rem;
   }
 }
 
 @media (min-width: 1200px) {
   div#project-summary {
     width: 80%;
+    margin-top: 3rem;
   }
 }
 
@@ -1197,4 +1191,39 @@ section {
   float: right;
   font-weight: 400;
   font-size: 1rem;
+}
+
+.vh-80{
+  height: 80vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius:0.5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#project-summary-header nav {
+  width: 80%;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+
+nav img {
+  height: 3rem;
 }
