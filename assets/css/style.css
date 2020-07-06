@@ -1224,6 +1224,6 @@ section {
   border-radius: 0.5rem;
 }
 
-nav img {
+nav>img {
   height: 3rem;
 }
