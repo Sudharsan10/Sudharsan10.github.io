@@ -1194,7 +1194,7 @@ section {
 }
 
 .vh-80{
-  height: 80vh;
+  max-height: 80vh;
 }
 
 /* width */
@@ -1226,4 +1226,10 @@ section {
 
 nav>img {
   height: 3rem;
+}
+
+.project-summary-gif {
+  margin-top: 3rem;
+  text-align: center;
+  max-height: fit-content;
 }
