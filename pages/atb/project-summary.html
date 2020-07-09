@@ -36,39 +36,68 @@
   <main id="main-project-summary">
 
     <!-- ======= Portfolio Details ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div id ="project-summary-header" >
-        <nav class="navbar fixed-top navbar-light bg-light">
-          <img  src="../../assets/img/portfolio/gan/img/logo.png" alt="GAN & DG-GAN">
-          <h2 class="portfolio-title m-0" style="vertical-align: center">Implementation of GAN & DC-GAN using PyTorch framework</h2>
-          <a type="button" id="view-on-github" class="btn btn-info" href="https://www.iamsudharsan.com/TilePuzzelSolver-App" target="_blank">Go to Project</a></li>
-        </nav>
-      </div>
+    <section id="portfolio-details" class="portfolio-details"><div id ="project-summary-header" >
+      <nav class="navbar fixed-top navbar-light bg-light">
+        <img  src="../../assets/img/portfolio/atb/img/logo2_nbg.png" alt="Maze Solver Robot">
+        <h2 class="portfolio-title m-0">A* implementation in Gazebo on Turtlebot3</h2>
+        <a type="button" id="view-on-github" class="btn btn-info" href="http://iamsudharsan.com/A-star-implementation-in-turtlebot-3/" target="_blank">Go to Project</a></li>
+      </nav>
+    </div>
       <div id ="project-summary" class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-8">
             <div id="carousel-ps" class="owl-carousel portfolio-details-carousel">
-              <img src="../../assets/img/portfolio/gan/01.jpg" class="img-fluid" alt="">
-              <img src="../../assets/img/portfolio/gan/02.jpg" class="img-fluid" alt="">
-              <img src="../../assets/img/portfolio/gan/03.jpg" class="img-fluid" alt="">
+              <img src="../../assets/img/portfolio/atb/img/ros.png" class="img-fluid" alt="">
+<!--              <img src="../../assets/img/portfolio/atb/img/atb1.gif" class="img-fluid vh-80" alt="">-->
+<!--              <img src="../../assets/img/portfolio/atb/img/atb2.gif" class="img-fluid vh-80" alt="">-->
+
             </div>
           </div>
 
           <div class="col-lg-4 portfolio-info">
             <h3>Project information</h3>
             <ul>
-              <li><strong>Language</strong>: Python</li>
-              <li><strong>Frameworks</strong>: Pytorch, Tensorboard, Tensorflow</li>
-              <li><strong>Category</strong>: Deep Neural Networks </li>
-              <li><strong>Code Repo URL</strong>: <a class="fa fa-github" href="" target="_blank"> </a></li>
+              <li><strong>Language:</strong> Python</li>
+              <li><strong>Simulator:</strong> Gazebo with ROS</li>
+              <li><strong>Libraries:</strong> OpenCV, Matplotlib, Numpy </li>
+              <li><strong>Category:</strong> Path Planning</li>
+              <li><strong>Code Repo URL:</strong> <a class="fa fa-github" href="https://github.com/Sudharsan10/A-star-implementation-in-turtlebot-3/" target="_blank"> &nbsp github.com/Sudharsan10/A-star-implementation-in-turtlebot-3/</a></li>
             </ul>
 
             <p class="text-justify">
               <strong>Summary:</strong>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              Goal of this project is to simulate a TurtleBot 3 in a Lab environment and to find a path to given location within the lab using A* algorithm without hitting the obstacles in the lab.
             </p>
+
           </div>
 
+        </div>
+
+        <div class = "row project-summary-brief" >
+          <h3> Exploration and path planning</h3>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <img src="../../assets/img/portfolio/atb/img/pp1.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <img src="../../assets/img/portfolio/atb/img/pp.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="row-cols-12 mt-5" >
+            <h3> Implementation</h3>
+            <ul>
+              <li><strong>Step 01: </strong> Implement A* algorithm with differential constraints with the specs of Turtlebot3</li>
+              <li><strong>Step 02: </strong> Add ROS code to publish the solution from <strong>Step 01 </strong></li>
+              <li><strong>Step 03: </strong> Run the Turtlebot3 simulation env in Gazebo using lab env file and run the node with code that publishes the solution.</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="project-summary-gif">
+          <h3> Sneak Peek gif</h3>
+          <img src="../../assets/img/portfolio/atb/img/ros.png" class="img-fluid vh-80" alt="">
         </div>
 
       </div>
