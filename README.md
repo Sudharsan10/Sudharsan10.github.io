@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Sudharsan10/Sudharsan10.github.io">
-    <img src=".\img\card.png" alt="Social-header">
+    <img src=".assets\img\portfolio\portfolio\img\card.png" alt="Social-header">
   </a>  
 </p>
 
