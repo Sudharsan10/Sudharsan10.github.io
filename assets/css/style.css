@@ -371,6 +371,12 @@ section {
   color: #728394;
 }
 
+.about .content h5 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #074889;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
